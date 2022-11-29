@@ -1,4 +1,4 @@
-import express from "npm:express@4.18.2";
+import express from "npm:express@^4.18";
 import data from "./data.json" assert { type: "json" };
 
 const app = express();
